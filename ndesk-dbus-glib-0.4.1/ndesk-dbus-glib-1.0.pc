@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+
+Name: NDesk.DBus.GLib
+Description: GLib integration for NDesk.DBus, the D-Bus IPC library
+Version: 0.4.1
+URL: http://www.ndesk.org/DBusSharp
+Requires: ndesk-dbus-1.0
+Libs: -r:${libdir}/mono/ndesk-dbus-glib-1.0/NDesk.DBus.GLib.dll
